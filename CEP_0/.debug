@@ -2,6 +2,7 @@
 <ExtensionList>
     <Extension Id="new_panel_0">
         <HostList>
+            <Host Name="PHSP" Port="9001"/>
             <Host Name="PHXS" Port="9001"/>
         </HostList>
     </Extension>

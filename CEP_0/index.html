@@ -5,6 +5,7 @@
 
 	<!--载入样式表-->
     <link href="./css/styles.css" type="text/css" rel="stylesheet">
+    <link href="./css/Ex-morphogen/exmo_main.css" type="text/css" rel="stylesheet">
 
 	<!--载入官方 JavaScript 库-->
     <script type="text/javascript" src="./js/adobe/CSInterface.js"></script>
@@ -26,6 +27,40 @@
 <body>
 <!--页面内容：-->
 
+
+
+
+<div class="exmo_area">
+    <h2> INPUT 输入框</h2>
+
+<input type="text" class="exmo_input_text" placeholder="占位符" value="普通编辑框">
+<input type="text" class="exmo_input_text" placeholder="占位符_普通" value="">
+<input type="text" class="exmo_input_text" placeholder="占位符_禁用" value="" disabled>
+<input type="text" class="exmo_input_text" placeholder="占位符" value="禁用编辑框" disabled>
+<input type="text" class="exmo_input_text" placeholder="占位符" value="警告编辑框" pattern="not-fail">
+
+</div>
+
+<div class="exmo_area">
+    <h2> BUTTON 按钮</h2>
+
+    <button class="exmo_button">  Button</button>
+    <button class="exmo_button" disabled>Button</button>
+    <button class="exmo_button warning">  警告</button>
+
+    <button class="exmo_button_ghost">  Button</button>
+    <button class="exmo_button_ghost" disabled>Button</button>
+    <button class="exmo_button_ghost warning">  警告</button>
+
+</div>
+
+
+
+<div class="exmo_area">
+    <h2> ICON 图标</h2>
+    <button class="exmo_button"> <i class="icon-layer-adjustment"></i> Button</button>
+    <i class="adobe"></i>
+</div>
 
 </body>
 
