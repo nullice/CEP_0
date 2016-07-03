@@ -268,5 +268,36 @@ $color_button_ghost_active : rgba(255, 255, 255, 0.51);
     }
 
   }
-  
+
+}
+
+
+
+
+.exmo_box_name {
+  display: inline-block;
+  font-size: 12px;
+  color: #808080;
+  text-align: right;
+  width: 50px;
+  vertical-align: text-bottom;
+
+  -webkit-user-select: text;
+  cursor:default;
+
+
+  i{
+    font-size: 16px;
+  }
+}
+
+
+.exmo_inbox{
+  display: inline-block;
+}
+
+
+.exmo_row{
+
+
 }
