@@ -303,7 +303,8 @@ $color_button_ghost_active : rgba(255, 255, 255, 0.51);
 {
 
   position: relative;
-  margin: 4px;
+  margin: 10px 0;
+  height: 30px;
 
 
   input {
@@ -335,9 +336,11 @@ $color_button_ghost_active : rgba(255, 255, 255, 0.51);
       border-radius: 3px;
       border-bottom-right-radius:0;
       border-top-right-radius:0;
+      padding-right:7px;
       span{
         margin-left:0;
       }
+      i{margin-left: 3px; margin-right: 3px}
 
     }
 
@@ -345,9 +348,11 @@ $color_button_ghost_active : rgba(255, 255, 255, 0.51);
     {
       border-bottom-right-radius:3px;
       border-top-right-radius:3px;
+      padding-left:9px;
       span{
         margin-left:0;
       }
+      i{margin-left: 3px; margin-right: 3px}
     }
 
     i{
@@ -366,10 +371,34 @@ $color_button_ghost_active : rgba(255, 255, 255, 0.51);
     color: #1e76e3;
   }
   }
-
-
 }
 
+
+.exmo_button_icon
+{
+  outline: none;
+  border: none;
+  background: none;
+  border: 1px solid rgba(220, 220, 220, 0);
+  padding: 3px 8px;
+
+  i{
+    font-size: 18px;
+    color: #5C5C5C;
+    vertical-align: text-bottom;
+  }
+
+  &:hover
+  {
+    background: #fff;
+    border: 1px solid #DCDCDC;
+  }
+  &:active
+  {
+    background: rgba(146, 146, 146, 0.09);
+  }
+
+}
 
 
 

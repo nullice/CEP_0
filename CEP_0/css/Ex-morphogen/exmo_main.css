@@ -120,7 +120,8 @@ i.adobe {
 
 .exmo_btn_group {
   position: relative;
-  margin: 4px; }
+  margin: 10px 0;
+  height: 30px; }
   .exmo_btn_group input {
     opacity: 0.01;
     position: absolute;
@@ -137,14 +138,22 @@ i.adobe {
     .exmo_btn_group .btn_primary:nth-of-type(1) {
       border-radius: 3px;
       border-bottom-right-radius: 0;
-      border-top-right-radius: 0; }
+      border-top-right-radius: 0;
+      padding-right: 7px; }
       .exmo_btn_group .btn_primary:nth-of-type(1) span {
         margin-left: 0; }
+      .exmo_btn_group .btn_primary:nth-of-type(1) i {
+        margin-left: 3px;
+        margin-right: 3px; }
     .exmo_btn_group .btn_primary:nth-last-of-type(1) {
       border-bottom-right-radius: 3px;
-      border-top-right-radius: 3px; }
+      border-top-right-radius: 3px;
+      padding-left: 9px; }
       .exmo_btn_group .btn_primary:nth-last-of-type(1) span {
         margin-left: 0; }
+      .exmo_btn_group .btn_primary:nth-last-of-type(1) i {
+        margin-left: 3px;
+        margin-right: 3px; }
     .exmo_btn_group .btn_primary i {
       font-size: 14px;
       color: #5C5C5C;
@@ -154,3 +163,19 @@ i.adobe {
     background: #EAF5FF; }
     .exmo_btn_group input:checked + .btn_primary i {
       color: #1e76e3; }
+
+.exmo_button_icon {
+  outline: none;
+  border: none;
+  background: none;
+  border: 1px solid rgba(220, 220, 220, 0);
+  padding: 3px 8px; }
+  .exmo_button_icon i {
+    font-size: 18px;
+    color: #5C5C5C;
+    vertical-align: text-bottom; }
+  .exmo_button_icon:hover {
+    background: #fff;
+    border: 1px solid #DCDCDC; }
+  .exmo_button_icon:active {
+    background: rgba(146, 146, 146, 0.09); }
