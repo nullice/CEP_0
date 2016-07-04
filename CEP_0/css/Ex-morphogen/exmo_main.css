@@ -169,7 +169,9 @@ i.adobe {
   border: none;
   background: none;
   border: 1px solid rgba(220, 220, 220, 0);
-  padding: 3px 8px; }
+  padding: 3px 8px;
+  margin-right: 0;
+  margin-right: 0; }
   .exmo_button_icon i {
     font-size: 18px;
     color: #5C5C5C;
@@ -179,3 +181,17 @@ i.adobe {
     border: 1px solid #DCDCDC; }
   .exmo_button_icon:active {
     background: rgba(146, 146, 146, 0.09); }
+  .exmo_button_icon.mini {
+    padding: 0px 3px; }
+    .exmo_button_icon.mini i {
+      font-size: 15px;
+      vertical-align: initial; }
+
+.exmo_icon_cheackbox {
+  opacity: 0.01;
+  position: absolute;
+  width: 0;
+  height: 0; }
+  .exmo_icon_cheackbox:checked + .exmo_button_icon {
+    border: 1px solid #bfbfbf;
+    background: rgba(80, 80, 80, 0.16); }

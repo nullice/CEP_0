@@ -33,12 +33,30 @@
 <div class="exmo_area">
     <h2> INPUT 输入框</h2>
 
-    <input type="text" class="exmo_input_text" placeholder="占位符" value="普通编辑框">
+    <input type="text" class="exmo_input_text" placeholder="占位符" value="普通编辑框" list="team_list">
+
     <input type="text" class="exmo_input_text" placeholder="占位符_普通" value="">
     <input type="text" class="exmo_input_text" placeholder="占位符_禁用" value="" disabled>
 
     <input type="text" class="exmo_input_text" placeholder="占位符" value="禁用编辑框" disabled>
-    <input type="text" class="exmo_input_text" placeholder="占位符" value="警告编辑框" pattern="not-fail">
+    <input type="text" class="exmo_input_text" placeholder="占位符" value="警告编辑框" pattern="test">
+
+
+
+    <!--<div style="position:relative;display: inline-block;">-->
+    <!--<span style="margin-left:100px;width:18px;overflow:hidden;">-->
+        <!--<select style="width:118px;margin-left:-100px" -->
+        <!--<option value="8">动漫下载</option>-->
+        <!--<option value="247">动漫音乐</option>-->
+        <!--<option value="9">完结动漫</option>-->
+        <!--<option value="63">漫画区</option>-->
+        <!--<option value="85">高清资源区</option>-->
+        <!--<option value="36">OVA&amp;剧场版动漫</option>-->
+        <!--<option value="87">求动漫&amp;漫画区</option>-->
+        <!--<option value="19">天使图书馆</option>-->
+        <!--</select></span>-->
+        <!--<input name="fid" style="width:100px;position:absolute;left:0px;">-->
+    <!--</div>-->
 
 
 
@@ -60,25 +78,35 @@
     <button class="exmo_button_icon"> <i class="icon-settings"></i></button>
     <button class="exmo_button_icon"> <i class="icon-style-copy"></i></button>
 
+
+    <input type="checkbox"  class="exmo_icon_cheackbox" id="check_btn1" autocomplete="off" checked>
+    <label class="exmo_button_icon"  for="check_btn1"><i class="icon-layer-visible"></i></label>
+
+    <input type="checkbox"  class="exmo_icon_cheackbox" id="check_btn2" autocomplete="off" checked>
+    <label class="exmo_button_icon mini"  for="check_btn2"><i class="icon-layer-visible"></i></label>
+
+
+
+
     <div class="exmo_btn_group" data-toggle="buttons">
 
         <input type="radio" name="group1" id="option1" autocomplete="off" checked>
-        <label class="btn btn_primary active"  for="option1">
+        <label class="btn btn_primary"  for="option1">
             <span>Radio</span>
         </label>
 
         <input type="radio" name="group1" id="option2" autocomplete="off" checked>
-        <label class="btn btn_primary active"  for="option2">
+        <label class="btn btn_primary "  for="option2">
             <span><i class="icon-xor-intersect"></i></span>
         </label>
 
         <input type="radio" name="group1" id="option3" autocomplete="off" checked>
-        <label class="btn btn_primary active"  for="option3">
+        <label class="btn btn_primary "  for="option3">
             <span><i class="icon-xor-difference"></i></span>
         </label>
 
         <input type="radio"  name="group1" id="option4" autocomplete="off" checked>
-        <label class="btn btn_primary active"  for="option4">
+        <label class="btn btn_primary"  for="option4">
             <span><i class="icon-glyph"></i></span>
         </label>
     </div>
@@ -88,22 +116,22 @@
     <div class="exmo_btn_group" data-toggle="buttons">
 
         <input type="radio" name="group2" id="d1" autocomplete="off" checked>
-        <label class="btn btn_primary active"  for="d1">
+        <label class="btn btn_primary "  for="d1">
             <span>Teet</span>
         </label>
 
         <input type="radio" name="group2" id="d2" autocomplete="off" checked>
-        <label class="btn btn_primary active"  for="d2">
+        <label class="btn btn_primary "  for="d2">
             <span>设置</span>
         </label>
 
         <input type="radio" name="group2" id="d3" autocomplete="off" checked>
-        <label class="btn btn_primary active"  for="d3">
+        <label class="btn btn_primary "  for="d3">
             <span>字符</span>
         </label>
 
         <input type="radio"  name="group2" id="d4" autocomplete="off" checked>
-        <label class="btn btn_primary active"  for="d4">
+        <label class="btn btn_primary "  for="d4">
             <span>内容处理</span>
         </label>
 
