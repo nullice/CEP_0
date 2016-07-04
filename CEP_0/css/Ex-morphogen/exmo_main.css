@@ -57,7 +57,7 @@ i.adobe {
   opacity: .8;
   display: inline-block; }
 
-.exmo_button, .exmo_button_ghost {
+.exmo_button, .exmo_button_ghost, .exmo_btn_group .btn_primary {
   outline: none;
   -webkit-user-select: none;
   border: 1px solid #B2B2B2;
@@ -68,19 +68,19 @@ i.adobe {
   color: #292929;
   font-family: "Microsoft YaHei", "Microsoft JhengHei", PingFang, "Hiragino Sans GB", "WenQuanYi Micro Hei", メイリオ, Meiryo, Helvetica, Arial, sans-serif;
   margin: 4px 0; }
-  .exmo_button:hover:not(:disabled), .exmo_button_ghost:hover:not(:disabled) {
+  .exmo_button:hover:not(:disabled), .exmo_button_ghost:hover:not(:disabled), .exmo_btn_group .btn_primary:hover:not(:disabled) {
     color: #2480E8; }
-  .exmo_button:disabled, .exmo_button_ghost:disabled {
+  .exmo_button:disabled, .exmo_button_ghost:disabled, .exmo_btn_group .btn_primary:disabled {
     opacity: .6; }
-  .exmo_button:active, .exmo_button_ghost:active {
+  .exmo_button:active, .exmo_button_ghost:active, .exmo_btn_group .btn_primary:active {
     background-color: rgba(255, 255, 255, 0.51); }
-  .exmo_button.warning, .warning.exmo_button_ghost {
+  .exmo_button.warning, .warning.exmo_button_ghost, .exmo_btn_group .warning.btn_primary {
     border-color: #ef988d;
     color: #be3c3c;
     background-color: #ffeaea; }
-    .exmo_button.warning:hover:not(:disabled), .warning.exmo_button_ghost:hover:not(:disabled) {
+    .exmo_button.warning:hover:not(:disabled), .warning.exmo_button_ghost:hover:not(:disabled), .exmo_btn_group .warning.btn_primary:hover:not(:disabled) {
       color: #FF0200; }
-    .exmo_button.warning:active, .warning.exmo_button_ghost:active {
+    .exmo_button.warning:active, .warning.exmo_button_ghost:active, .exmo_btn_group .warning.btn_primary:active {
       background-color: #fddddd; }
 
 .exmo_button_ghost {
@@ -117,3 +117,19 @@ i.adobe {
 
 .exmo_inbox {
   display: inline-block; }
+
+.exmo_btn_group {
+  position: relative;
+  margin: 4px; }
+  .exmo_btn_group .btn_primary {
+    position: relative;
+    padding: 0; }
+    .exmo_btn_group .btn_primary input {
+      opacity: 0.01;
+      position: absolute;
+      width: 0;
+      height: 0; }
+    .exmo_btn_group .btn_primary input:checked + span {
+      color: #1e76e3;
+      padding: 5px 20px;
+      background: red; }
