@@ -10,7 +10,7 @@ you can base this templet extension to quick start developing your CEP extension
 
 
 ## Screenshot
-![](http://ww4.sinaimg.cn/large/c35419f1gw1f5i9l9vfdkj208o0l8wg0.jpg)
+![](http://ww2.sinaimg.cn/large/c35419f1gw1f5i9zj2jw3j20bu0l8jt1.jpg)
 
 ## License
 
