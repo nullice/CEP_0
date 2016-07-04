@@ -304,32 +304,70 @@ $color_button_ghost_active : rgba(255, 255, 255, 0.51);
 
   position: relative;
   margin: 4px;
+
+
+  input {
+    opacity: 0.01;
+    position: absolute;
+    width: 0;
+    height: 0;
+  }
+
   .btn_primary
   {
     @extend .exmo_button;
+    padding: 5px 10px;
     position: relative;
+    border-radius: 0;
 
-    padding: 0;
+   span{
+     margin-left: 3px;
+   }
 
 
-
-    input {
-      opacity: 0.01;
-      position: absolute;
-      width: 0;
-      height: 0;
+    &:not(:nth-of-type(1))
+    {
+      border-left:none;
     }
 
-    input:checked+span
+    &:nth-of-type(1)
     {
-      color: #1e76e3;
-      padding: 5px 20px;
-      background: red;
+      border-radius: 3px;
+      border-bottom-right-radius:0;
+      border-top-right-radius:0;
+      span{
+        margin-left:0;
+      }
 
+    }
 
+    &:nth-last-of-type(1)
+    {
+      border-bottom-right-radius:3px;
+      border-top-right-radius:3px;
+      span{
+        margin-left:0;
+      }
+    }
 
+    i{
+      font-size: 14px;
+      color: #5C5C5C;
+      vertical-align: text-bottom;
     }
   }
+
+  input:checked+.btn_primary
+  {
+    color: #1e76e3;
+    background: #EAF5FF;
+
+  i{
+    color: #1e76e3;
+  }
+  }
+
+
 }
 
 
