@@ -2,7 +2,9 @@
 Photoshop extension base templet.
 you can base this templet extension to quick start developing your CEP extension.
 
-这是一个 Photoshop CEP 模板扩展，提供了基本的 CSS 库和颜色随宿主主题切换功能，可以添加自己的功能代码快速开始 CEP 扩展的开发。**还没有完成**
+这是一个 Photoshop CEP 模板扩展，提供了基本的 CSS 库和颜色随宿主主题切换功能，可以添加自己的功能代码快速开始 CEP 扩展的开发。
+
+**还没有完成** 缺乏各 PhotoShop 各主题下的配色。
 
 
 ## Features
